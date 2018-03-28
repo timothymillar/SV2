@@ -64,6 +64,7 @@ setup(  name='sv2',
             
         ),
 	include_dirs=[numpy.get_include()],
+        python_requires='~=2.7',
         requires=[
                 'cython',
                 'json',
